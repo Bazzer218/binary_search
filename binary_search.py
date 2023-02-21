@@ -45,8 +45,8 @@ def find_smallest_positive(xs):
         print(xs)
         return find_smallest_positive(xs[mid:]) + len(xs[:mid])
     if xs[mid] == 0:
-        print(xs.index(0)+1)
-        return xs.index(0)+1
+        print(xs.index(0) + 1)
+        return xs.index(0) + 1
 
 
 def count_repeats1(xs, x):
