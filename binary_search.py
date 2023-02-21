@@ -165,5 +165,3 @@ def argmin_simple(f, epsilon=1e-3):
     If you implement the find_boundaries function correctly,
     then this function will work correctly too.
     '''
-    lo, hi = find_boundaries(f)
-    return argmin(f, lo, hi, epsilon)
